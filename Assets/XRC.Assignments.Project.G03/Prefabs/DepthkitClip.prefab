@@ -1,0 +1,341 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6462204113998783578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1992001480419204549}
+  - component: {fileID: 8292938668670341124}
+  - component: {fileID: 3545091410513775692}
+  - component: {fileID: 3160989093550932442}
+  - component: {fileID: 2261962729695322258}
+  - component: {fileID: 2133156104190139988}
+  - component: {fileID: 4194320558543750783}
+  - component: {fileID: 9166744679571543027}
+  m_Layer: 0
+  m_Name: DepthkitClip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1992001480419204549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462204113998783578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8292938668670341124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462204113998783578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4fa781ea55830e408ba83c0f9d07c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_metadataFilePath: 
+  m_metadataFile: {fileID: 4900000, guid: 11acfeb31cd74124ab42cdbd8b7eb113, type: 3}
+  m_metadataSourceType: 0
+  m_metadata:
+    _versionMajor: 0
+    _versionMinor: 4
+    format: perpixel
+    textureWidth: 2288
+    textureHeight: 2048
+    boundsCenter: {x: 0, y: 0, z: 2.1889074}
+    boundsSize: {x: 5.8593507, y: 3.2958176, z: 1.8528137}
+    perspectives:
+    - depthImageSize: {x: 3840, y: 2160}
+      depthPrincipalPoint: {x: 1899.6179, y: 1080.2981}
+      depthFocalLength: {x: 2041.6608, y: 2041.7024}
+      farClip: 3.1153142
+      nearClip: 1.2625005
+      extrinsics:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      extrinsicsInv:
+        e00: 1
+        e01: 0
+        e02: 0
+        e03: 0
+        e10: 0
+        e11: 1
+        e12: 0
+        e13: 0
+        e20: 0
+        e21: 0
+        e22: 1
+        e23: 0
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      crop: {x: 0.20766129, y: 0, z: 0.5967742, w: 0.953629}
+      clipEpsilon: 0.0026985982
+      cameraNormal: {x: 0, y: 0, z: 1}
+      cameraCenter: {x: 0, y: 0, z: 0}
+    perspectivesCount: 1
+    numRows: 1
+    numColumns: 1
+    numAngles: 0
+  m_perspectiveDataBuffer:
+    m_name: Depthkit Perspective Data Buffer
+  m_player: {fileID: 3545091410513775692}
+  m_poster: {fileID: 2800000, guid: 9b335281d70b5be40be98ce34298e41d, type: 3}
+  m_disablePoster: 0
+--- !u!114 &3545091410513775692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462204113998783578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d45f7d508d0a14884bec1201260eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_mediaPlayer: {fileID: 3160989093550932442}
+  m_audioSource: {fileID: 2261962729695322258}
+--- !u!328 &3160989093550932442
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462204113998783578}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: 96c8009f014c41e41993116b5502b789, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: _MainTex
+  m_RenderMode: 4
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
+  m_Url: 
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 1
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
+--- !u!82 &2261962729695322258
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462204113998783578}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!65 &2133156104190139988
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462204113998783578}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4194320558543750783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462204113998783578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d141e4f523dd8314d99067356eb5952d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bIsSetup: 0
+  m_parent: root
+  recalculateCurrentSurfaceTriangleCount: 0
+  m_subMeshMaxTriangles: 
+  m_useTriangleMesh: 0
+  radialBias: 0.8
+  radialBiasPersp: []
+  pauseDataGenerationWhenInvisible: 0
+  pausePlayerWhenInvisible: 0
+  surfaceTriangleCountPercent: 0.7
+  m_meshDensity: 0
+  m_latticeResolution: {x: 1, y: 1}
+  m_latticeMaxTriangles: 0
+  normalGenerationTechnique: 3
+  adjustableNormalSlope: 255
+  edgeCompressionNoiseThreshold: 0.25
+  clipThreshold: 0.5
+  ditherEdge: 0
+  ditherWidth: 0.1
+  vertexCount: 0
+  m_vertexBufferSlices: 1
+  maskGenerator:
+    clip: {fileID: 0}
+    scale: 1
+    invalidateEdgeWidth: 1
+    invalidateStrength: 1
+    m_maskTextureFormat: 14
+    enableBlur: 0
+    enableMaskDebug: 0
+    m_blurFilter:
+      radius: 0.3
+      reductionFactor: 1
+      slices: 1
+    sobelMultiplier: 0.5
+    m_downScale: 0
+--- !u!114 &9166744679571543027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462204113998783578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03bb0f90eda0bf24e9fe79bcd169940b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  depthkitClip: {fileID: 8292938668670341124}
+  showPerViewColorDebug: 0
+  showCameraFrustums: 0
+  meshSource: {fileID: 4194320558543750783}
+  m_collider: {fileID: 2133156104190139988}
+  shadowCastingMode: 1
+  receiveShadows: 1
+  interpolateLightProbes: 1
+  anchorOverride: {fileID: 0}
+  lookMaterial: {fileID: 0}
